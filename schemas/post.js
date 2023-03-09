@@ -26,6 +26,31 @@ export default {
       name: 'author',
       type: 'referance',
       title: 'Author',
+      //to: {type: 'author'},
+    },
+    {
+      name: 'mainImage',
+      type: 'image',
+      title: 'Main Image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'categories',
+      type: 'array',
+      title: 'Categories',
+      // of:[{type: 'reference', to: {type: 'category'}}]
+    },
+    {
+      name: 'publishedAt',
+      type: 'datetime',
+      title: 'Published At',
+    },
+    {
+      name: 'body',
+      type: 'blogContent',
+      title: 'Body',
     },
   ],
 }
