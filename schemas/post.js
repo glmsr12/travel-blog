@@ -28,14 +28,14 @@ export default {
     //title: 'Author',
     //to: {type: 'author'},
     // },
-    {
-      name: 'mainImage',
-      type: 'image',
-      title: 'Main Image',
-      options: {
-        hotspot: true,
-      },
-    },
+    //{
+    //name: 'mainImage',
+    //type: 'image',
+    //title: 'Main Image',
+    //options: {
+    //hotspot: true,
+    //},
+    //},
     // {
     //  name: 'categories',
     //  type: 'array',
