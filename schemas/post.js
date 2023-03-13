@@ -36,20 +36,20 @@ export default {
         hotspot: true,
       },
     },
-    //{
-    // name: 'categories',
-    // type: 'array',
-    //title: 'Categories',
-    // of: [{type: 'reference', to: {type: 'category'}}],
-    // },
-    // {
-    //   name: 'publishedAt',
-    //    type: 'datetime',
-    //    title: 'Published At',
-    //   },
+    {
+      name: 'categories',
+      type: 'array',
+      title: 'Categories',
+      of: [{type: 'reference', to: {type: 'category'}}],
+    },
+    {
+      name: 'publishedAt',
+      type: 'datetime',
+      title: 'Published At',
+    },
     {
       name: 'body',
-      type: 'blockContent',
+      type: 'blockContenct',
       title: 'Body',
     },
   ],
