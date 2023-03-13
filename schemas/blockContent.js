@@ -1,5 +1,5 @@
 export default {
-  name: 'blockContenct',
+  name: 'blockContent',
   type: 'array',
   title: 'Block Content',
   of: [
