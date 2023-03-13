@@ -42,14 +42,14 @@ export default {
     //title: 'Categories',
     // of: [{type: 'reference', to: {type: 'category'}}],
     // },
-    {
-      name: 'publishedAt',
-      type: 'datetime',
-      title: 'Published At',
-    },
+    // {
+    //   name: 'publishedAt',
+    //    type: 'datetime',
+    //    title: 'Published At',
+    //   },
     {
       name: 'body',
-      type: 'blockContenct',
+      type: 'blockContent',
       title: 'Body',
     },
   ],
