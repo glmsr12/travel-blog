@@ -19,7 +19,7 @@ export default {
           _type: 'geopoint',
           lat: latitude,
           lng: longitude,
-          alt: altitude || undefined,
+          alt: altitude,
         }
       })
       .catch(() => undefined()),
